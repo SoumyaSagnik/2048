@@ -11,7 +11,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 90vh;
     margin: 0;
     font-size: 7.5vmin;
     gap: 2vmin;
@@ -112,7 +112,7 @@ body {
 #dusk {
     position: absolute;
     width: 100vw;
-    height: 100vh;
+    height: 90vh;
     z-index: 68;
     background-color: rgba(0, 0, 0, .5);
 }
