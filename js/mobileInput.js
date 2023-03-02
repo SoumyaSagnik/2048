@@ -19,8 +19,8 @@ board.addEventListener("touchmove", (e) => {
 
 // Handle touch end event
 board.addEventListener("touchend", () => {
-  var deltaX = touchEndX - touchStartX;
-  var deltaY = touchEndY - touchStartY;
+  let deltaX = touchEndX - touchStartX;
+  let deltaY = touchEndY - touchStartY;
 
   // Determine if swipe was horizontal or vertical
   if (Math.abs(deltaX) > Math.abs(deltaY)) {
