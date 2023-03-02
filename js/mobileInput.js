@@ -33,7 +33,6 @@ board.addEventListener("touchend", () => {
         bubbles: true,
       });
       document.dispatchEvent(event);
-      console.log("right");
     } else if (deltaX < 0) {
       // Swipe left
       const event = new KeyboardEvent("keydown", {
@@ -42,7 +41,6 @@ board.addEventListener("touchend", () => {
         bubbles: true,
       });
       document.dispatchEvent(event);
-      console.log("left");
     }
   } else {
     // Vertical swipe
@@ -54,7 +52,6 @@ board.addEventListener("touchend", () => {
         bubbles: true,
       });
       document.dispatchEvent(event);
-      console.log("down");
     } else if (deltaY < 0) {
       // Swipe up
       const event = new KeyboardEvent("keydown", {
@@ -63,7 +60,6 @@ board.addEventListener("touchend", () => {
         bubbles: true,
       });
       document.dispatchEvent(event);
-      console.log("up");
     }
   }
 });
