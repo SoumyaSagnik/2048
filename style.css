@@ -112,7 +112,7 @@ body {
 #dusk {
     position: absolute;
     width: 100vw;
-    height: 100vh;
+    height: 100dvh;
     z-index: 68;
     background-color: rgba(0, 0, 0, .5);
 }
@@ -125,15 +125,5 @@ body {
     0% {
         opacity: .5;
         transform: scale(0);
-    }
-}
-
-@media (max-width: 800px) {
-    body {
-        height: 90vh;
-    }
-
-    #dusk {
-        height: 90vh;
     }
 }
